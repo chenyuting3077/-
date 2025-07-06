@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="4dp"
+            android:background="@drawable/chart_switch_background"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btn_prepare"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorTrans"
+                android:text="事前規劃" />
+            <Button
+                android:id="@+id/btn_actual"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/chart_selected_background"
+                android:text="實際執行" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:background="@drawable/chart_topdown_line"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorTrans"
+                android:textStyle = "bold"
+                android:textSize="8pt"
+                android:text="天" />
+
+            <Button
+                android:id="@+id/btn_week"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/colorTrans"
+                android:textStyle = "bold"
+                android:textSize="8pt"
+                android:text="周" />
+
+            <Button
+                android:id="@+id/btn_month"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorLightGreen"
+                android:textStyle = "bold"
+                android:textSize="8pt"
+                android:text="月" />
+
+            <Button
+                android:id="@+id/btn_year"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorTrans"
+                android:textStyle = "bold"
+                android:textSize="8pt"
+                android:text="年" />
+
+        </LinearLayout>
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChart"
+            android:padding="20dp"
+            android:layout_width="250dp"
+            android:layout_height="250dp">
+
+        </com.github.mikephil.charting.charts.PieChart>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle_event"
+            android:layout_width="300dp"
+            android:background="@drawable/chart_switch_background"
+            android:padding="10dp"
+            android:layout_height="match_parent"
+         />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
