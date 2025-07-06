@@ -13,53 +13,32 @@
 **時間管家** 是一款針對這些痛點設計的時間管理 App，協助使用者規劃日程、追蹤任務執行時間，並提供視覺化的時間使用分析，讓時間使用更有感。
 
 ### 📷 使用畫面預覽
-
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-<meta charset="UTF-8" />
-<title>靜態圖片水平滑動展示</title>
-<style>
-  .scroll-container {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
-    padding: 10px 0;
-    white-space: nowrap;
-  }
-  .scroll-container img {
-    width: 200px;
-    height: auto;
-    user-select: none;
-    -webkit-user-drag: none;
-  }
-</style>
-</head>
-<body>
-
-<div class="scroll-container">
-  <img src="實機畫面/0.png" width="200" alt="圖片 0" />
-  <img src="實機畫面/1.png" width="200" alt="圖片 1" />
-  <img src="實機畫面/2.png" width="200" alt="圖片 2" />
-  <img src="實機畫面/3.png" width="200" alt="圖片 3" />
-  <img src="實機畫面/4.png" width="200" alt="圖片 4" />
-  <img src="實機畫面/5.png" width="200" alt="圖片 5" />
-  <img src="實機畫面/6.png" width="200" alt="圖片 6" />
-  <img src="實機畫面/7.png" width="200" alt="圖片 7" />
-  <img src="實機畫面/8.png" width="200" alt="圖片 8" />
-  <img src="實機畫面/9.png" width="200" alt="圖片 9" />
-  <img src="實機畫面/10.png" width="200" alt="圖片 10" />
-  <img src="實機畫面/11.png" width="200" alt="圖片 11" />
-  <img src="實機畫面/12.png" width="200" alt="圖片 12" />
-  <img src="實機畫面/13.png" width="200" alt="圖片 13" />
-  <img src="實機畫面/14.png" width="200" alt="圖片 14" />
-  <img src="實機畫面/15.png" width="200" alt="圖片 15" />
-  <img src="實機畫面/16.png" width="200" alt="圖片 16" />
-  <img src="實機畫面/17.png" width="200" alt="圖片 17" />
-</div>
-
-</body>
-</html>
+<table>
+  <tr>
+    <td><img src="實機畫面/0.jpg" width="100" /></td>
+    <td><img src="實機畫面/1.jpg" width="100" /></td>
+    <td><img src="實機畫面/2.jpg" width="100" /></td>
+    <td><img src="實機畫面/3.jpg" width="100" /></td>
+    <td><img src="實機畫面/4.jpg" width="100" /></td>
+    <td><img src="實機畫面/5.png" width="100" /></td>
+  </tr>
+  <tr>
+    <td><img src="實機畫面/6.png" width="100" /></td>
+    <td><img src="實機畫面/7.png" width="100" /></td>
+    <td><img src="實機畫面/8.png" width="100" /></td>
+    <td><img src="實機畫面/9.png" width="100" /></td>
+    <td><img src="實機畫面/10.png" width="100" /></td>
+    <td><img src="實機畫面/11.png" width="100" /></td>
+  </tr>
+  <tr>
+    <td><img src="實機畫面/12.png" width="100" /></td>
+    <td><img src="實機畫面/13.png" width="100" /></td>
+    <td><img src="實機畫面/14.png" width="100" /></td>
+    <td><img src="實機畫面/15.png" width="100" /></td>
+    <td><img src="實機畫面/16.png" width="100" /></td>
+    <td><img src="實機畫面/17.png" width="100" /></td>
+  </tr>
+</table>
 
 
 
@@ -80,7 +59,7 @@
 - 熟悉基本手機操作的使用者
 - 年齡層以 20 ~ 39 歲為主（調查顯示該群最關心時間管理）
 
----
+
 
 ## 產品功能概覽
 
@@ -103,7 +82,7 @@
 - 支援日、週、月、年等時間區間
 - 可查看各任務類別的詳細數據
 
----
+
 
 ## 我們比現有 App 更好的地方
 
@@ -114,7 +93,7 @@
 | 類別與提醒設定 | ✅ 可自訂圖示與提醒     | ❌ 限制較多或無此功能 |
 | 統計報表       | ✅ 視覺化分析、切換時間 | ❌ 幾乎沒有統計功能   |
 
----
+
 
 ## 使用者回饋與改進計畫
 
@@ -124,8 +103,8 @@
 - 預計支援鎖定畫面/桌面小工具計時
 - 將由設計師優化整體配色與排版
 
----
 
-### 團隊成員
+
+## 團隊成員
 | 詹智鈞 | 周哲宇 | 張景淵 | 蔡承哲 | 陳又霆 | 周昱廷 |
 | ------ | ------ | ------ | ------ | ------ | ------ |
