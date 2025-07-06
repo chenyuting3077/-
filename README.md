@@ -14,26 +14,53 @@
 
 ### 📷 使用畫面預覽
 
-<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px 0;">
-  <img src="實機畫面/0.jpg" width="200" />
-  <img src="實機畫面/1.jpg" width="200" />
-  <img src="實機畫面/2.jpg" width="200" />
-  <img src="實機畫面/3.jpg" width="200" />
-  <img src="實機畫面/4.jpg" width="200" />
-  <img src="實機畫面/5.png" width="200" />
-  <img src="實機畫面/6.png" width="200" />
-  <img src="實機畫面/7.png" width="200" />
-  <img src="實機畫面/8.png" width="200" />
-  <img src="實機畫面/9.png" width="200" />
-  <img src="實機畫面/10.png" width="200" />
-  <img src="實機畫面/11.png" width="200" />
-  <img src="實機畫面/12.png" width="200" />
-  <img src="實機畫面/13.png" width="200" />
-  <img src="實機畫面/14.png" width="200" />
-  <img src="實機畫面/15.png" width="200" />
-  <img src="實機畫面/16.png" width="200" />
-  <img src="實機畫面/17.png" width="200" />
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8" />
+<title>靜態圖片水平滑動展示</title>
+<style>
+  .scroll-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+    white-space: nowrap;
+  }
+  .scroll-container img {
+    width: 200px;
+    height: auto;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+</style>
+</head>
+<body>
+
+<div class="scroll-container">
+  <img src="實機畫面/0.png" width="200" alt="圖片 0" />
+  <img src="實機畫面/1.png" width="200" alt="圖片 1" />
+  <img src="實機畫面/2.png" width="200" alt="圖片 2" />
+  <img src="實機畫面/3.png" width="200" alt="圖片 3" />
+  <img src="實機畫面/4.png" width="200" alt="圖片 4" />
+  <img src="實機畫面/5.png" width="200" alt="圖片 5" />
+  <img src="實機畫面/6.png" width="200" alt="圖片 6" />
+  <img src="實機畫面/7.png" width="200" alt="圖片 7" />
+  <img src="實機畫面/8.png" width="200" alt="圖片 8" />
+  <img src="實機畫面/9.png" width="200" alt="圖片 9" />
+  <img src="實機畫面/10.png" width="200" alt="圖片 10" />
+  <img src="實機畫面/11.png" width="200" alt="圖片 11" />
+  <img src="實機畫面/12.png" width="200" alt="圖片 12" />
+  <img src="實機畫面/13.png" width="200" alt="圖片 13" />
+  <img src="實機畫面/14.png" width="200" alt="圖片 14" />
+  <img src="實機畫面/15.png" width="200" alt="圖片 15" />
+  <img src="實機畫面/16.png" width="200" alt="圖片 16" />
+  <img src="實機畫面/17.png" width="200" alt="圖片 17" />
 </div>
+
+</body>
+</html>
+
 
 
 ## 使用者調查簡介
